@@ -42,7 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 11
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 8
+    serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 40
     m_TextureWidth: 1024
@@ -87,7 +87,7 @@ LightmapSettings:
     m_PVRFilteringAtrousNormalSigma: 1
     m_PVRFilteringAtrousPositionSigma: 1
   m_LightingDataAsset: {fileID: 0}
-  m_ShadowMaskMode: 2
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -145,10 +145,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 145347701}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9031b3210d3f72c43853c5d3121dcd57, type: 3}
+  m_Script: {fileID: 11500000, guid: 587bc3d1b9ecd434db0d7ef74d6d1d5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1223881724542778, guid: 0a31d5f39b380964ab8c17c181eeafd0, type: 2}
+  prefab: {fileID: 1223881724542778, guid: 0cedf8e57d821064dafd91a0fa10023d, type: 2}
 --- !u!1 &657229719
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,7 +186,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 657229719}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c29e74a6ce8ff364cbcecdd282d5128a, type: 3}
+  m_Script: {fileID: 11500000, guid: 937289154fd22164a98db8c6e19ac4db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   questionText: {fileID: 1113523761}
@@ -463,7 +463,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.58410025}
   m_AnchorMax: {x: 1, y: 0.8880001}
-  m_AnchoredPosition: {x: -13.174999, y: 0}
+  m_AnchoredPosition: {x: -13.175, y: 0}
   m_SizeDelta: {x: -85.95, y: -36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1113523761
