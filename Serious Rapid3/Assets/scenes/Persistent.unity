@@ -145,31 +145,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 551411557}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd48bcdb91d1eb94c93e0ab382d4f180, type: 3}
+  m_Script: {fileID: 11500000, guid: ac23d777fc5c6cd46bffd58a047894b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   allRoundData:
-  - name: Round Zero
-    timeLimitInSeconds: 30
-    pointsAddedForCorrectAnswer: 10
+  - name: Round1
+    timeLimitInSeconds: 20
+    pointsAddedForCorrectAnswer: 5
     questions:
-    - questionText: check
+    - questionText: Is A a B
       answers:
-      - answerText: AA
-        isCorrect: 1
-      - answerText: AAA
+      - answerText: Yes
         isCorrect: 0
-    - questionText: BBBBBBBBBB
+      - answerText: No
+        isCorrect: 0
+      - answerText: Not sure
+        isCorrect: 1
+    - questionText: Is A a B
       answers:
-      - answerText: BBBBBB
+      - answerText: Yes
         isCorrect: 0
-      - answerText: BBBBBBB
+      - answerText: No
         isCorrect: 0
-      - answerText: BBBBBBBBBBB
+      - answerText: Not sure
         isCorrect: 1
-    - questionText: CCCCCCCCCC
-      answers:
-      - answerText: CCCCCCC
-        isCorrect: 1
-      - answerText: CCCCCCC
-        isCorrect: 0
